@@ -13,5 +13,6 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *strengthLabel;
 @property (nonatomic, weak) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *speedLabel;
 
 @end

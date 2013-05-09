@@ -29,6 +29,7 @@
 
 - (void)viewDidUnload
 {
+    [self setSpeedLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
