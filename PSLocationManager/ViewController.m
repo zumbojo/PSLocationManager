@@ -64,6 +64,7 @@
 
 - (void)locationManager:(PSLocationManager *)locationManager distanceUpdated:(CLLocationDistance)distance {
     self.distanceLabel.text = [NSString stringWithFormat:@"%.2f %@", distance, NSLocalizedString(@"meters", @"")];
+    self.speedLabel.text = [NSString stringWithFormat:@"%.2f %@", locationManager.currentSpeed, NSLocalizedString(@"m/s", @"")];
 }
 
 - (void)locationManager:(PSLocationManager *)locationManager error:(NSError *)error {
