@@ -18,6 +18,7 @@
 		04EFB2E914F4A89300715B64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EFB2E714F4A89300715B64 /* ViewController_iPad.xib */; };
 		04EFB2F314F4AFBD00715B64 /* PSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFB2F014F4A8C300715B64 /* PSLocationManager.m */; };
 		CE6D1EC4173B48E500F9776E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFB2F114F4A99700715B64 /* CoreLocation.framework */; };
+		CE6D1EC6173B4A8900F9776E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6D1EC5173B4A8900F9776E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		04EFB2EF14F4A8C300715B64 /* PSLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLocationManager.h; sourceTree = "<group>"; };
 		04EFB2F014F4A8C300715B64 /* PSLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLocationManager.m; sourceTree = "<group>"; };
 		04EFB2F114F4A99700715B64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE6D1EC5173B4A8900F9776E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		04EFB2C014F4A89200715B64 = {
 			isa = PBXGroup;
 			children = (
+				CE6D1EC5173B4A8900F9776E /* Default-568h@2x.png */,
 				04EFB2D514F4A89300715B64 /* PSLocationManager */,
 				04EFB2CE14F4A89300715B64 /* Frameworks */,
 				04EFB2CC14F4A89300715B64 /* Products */,
@@ -163,6 +166,7 @@
 				04EFB2DA14F4A89300715B64 /* InfoPlist.strings in Resources */,
 				04EFB2E614F4A89300715B64 /* ViewController_iPhone.xib in Resources */,
 				04EFB2E914F4A89300715B64 /* ViewController_iPad.xib in Resources */,
+				CE6D1EC6173B4A8900F9776E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
